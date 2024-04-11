@@ -1,7 +1,6 @@
-import { useMemo, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { FaUmbrellaBeach } from "react-icons/fa6";
 import { useDebounceCallback, useEventListener } from "usehooks-ts";
-import rentalService from "../../services/rental";
 import CategoryLink from "./CategoryLink";
 import NavLink from "./NavLink";
 import SearchBar from "./SearchBar";
